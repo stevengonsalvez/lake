@@ -3,6 +3,7 @@ module github.com/merico-dev/lake
 go 1.17
 
 require (
+	github.com/gin-contrib/cors v1.3.1
 	github.com/spf13/viper v1.8.1
 	gorm.io/datatypes v1.0.1
 	gorm.io/driver/mysql v1.1.2
@@ -12,9 +13,8 @@ require (
 require (
 	github.com/bndr/gojenkins v1.1.0
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/gin-gonic/gin v1.7.4
-	github.com/go-playground/validator/v10 v10.9.0 // indirect
-	github.com/joho/godotenv v1.3.0
+	github.com/gin-gonic/gin v1.7.7
+	github.com/go-playground/validator/v10 v10.9.0
 	github.com/magiconair/properties v1.8.5
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mitchellh/mapstructure v1.4.1
@@ -33,7 +33,6 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/gin-contrib/cors v1.3.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
