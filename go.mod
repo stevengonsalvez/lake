@@ -3,6 +3,7 @@ module github.com/merico-dev/lake
 go 1.17
 
 require (
+	github.com/gin-contrib/cors v1.3.1
 	github.com/spf13/viper v1.8.1
 	gorm.io/datatypes v1.0.1
 	gorm.io/driver/mysql v1.1.2
@@ -13,8 +14,7 @@ require (
 	github.com/bndr/gojenkins v1.1.0
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-gonic/gin v1.7.4
-	github.com/go-playground/validator/v10 v10.9.0 // indirect
-	github.com/joho/godotenv v1.3.0
+	github.com/go-playground/validator/v10 v10.9.0
 	github.com/magiconair/properties v1.8.5
 	github.com/mattn/go-isatty v0.0.13 // indirect
 	github.com/mitchellh/mapstructure v1.4.1
@@ -26,14 +26,13 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.6-0.20200504143853-81378bbcd8a1
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
+	golang.org/x/text v0.3.8 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 )
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/gin-contrib/cors v1.3.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
